@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Heebo&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(125deg, #F6503B, #D22A10, #D22A10);
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.533);
+  position: fixed;
+  top: 0px; 
+  left: 0px;
+  z-index: 999;
+}
+
+#navbar {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #F1E9DB;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#welcome-section {
+  text-align: center;
+  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  background: #412722; 
+  display: block;
+  align-content: center;
+  justify-content: center;
+}
+
+#welcome-section h1 { 
+  font-size: 4rem;
+  padding-top: 30vh;
+  padding-bottom: 0px;
+  text-shadow: 3px 3px #F6503B;
+  text-align: center;
+  padding-top: 40vh;
+  color: #F1E9DB;
+}
+
+#welcome-section p {
+  font-size: 2rem;
+  color: #F6503B;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+#contact {
+  margin: 20px auto;
+}
+
+#contact li {
+  text-align: center;
+  font-size: 2.5rem;
+  display: block;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #F1E9DB;
+  text-shadow: 1px 1px #F6503B;
+}
+
+
+#about {
+  text-align: center;
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background: #F1E9DB;
+}
+
+#about h1 {
+  font-size: 4rem;
+  text-shadow: 3px 3px #ff8575;
+  text-align: center;
+  padding-top: 110px;
+  margin: 0px auto;
+  color: #412722;
+}
+
+#about h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px #ff8575;
+}
+
+#about ul {
+  width: 50%;
+  margin: 20px auto;
+}
+
+#about li {
+  font-size: 2rem;
+  list-style: square;
+}
+
+#mel-photo {
+  width: 80%;
+  margin-top: 25px;
+}
+
+#mel {
+  width: 85%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about p {
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+#projects {
+  height: auto;
+  width: auto;
+  background-color: #5DA271;
+}
+
+#projects h1 {
+  font-size: 4rem;
+  text-shadow: 3px 3px #F6503B;
+  text-align: center;
+  padding-top: 110px;
+  color: #F1E9DB;
+}
