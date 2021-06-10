@@ -227,6 +227,7 @@ a {
 
   .project-card {
     width: 45%;
+    margin: 10px;
   }
 
   #first-project {
@@ -311,5 +312,4 @@ a {
   #first-image {
     width: 100%;
   }
-
 }
