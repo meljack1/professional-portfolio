@@ -8,4 +8,4 @@ https://meljack1.github.io/professional-portfolio/
 
 ## Screenshot
 
-![Screenshot of website](.\assets\images\screenshot.PNG?raw=true)
+![Screenshot of website](./assets/images/screenshot.PNG?raw=true)
