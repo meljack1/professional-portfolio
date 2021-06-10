@@ -118,7 +118,7 @@ a {
   font-size: 4rem;
   text-shadow: 3px 3px var(--pale-pink);
   text-align: center;
-  padding-top: 110px;
+  padding-top: 150px;
   margin: 0px auto;
   color: #412722;
 }
@@ -168,7 +168,7 @@ a {
   font-size: 4rem;
   text-shadow: 3px 3px var(--mid-pink);
   text-align: center;
-  padding-top: 110px;
+  padding-top: 150px;
   color: #F1E9DB;
 }
 
@@ -249,7 +249,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   #welcome-section h1 {
