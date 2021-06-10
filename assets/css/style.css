@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Heebo&display=swap');
 
+:root {
+  --brown: #412722;
+  --pale-pink: #ff8575;
+  --mid-pink: #F6503B;
+  --dark-pink: #D22A10;
+  --white: #F1E9DB;
+  --green: #5DA271;
+  --transparent-black: rgba(0, 0, 0, 0.4);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -25,8 +35,8 @@ a {
 #header {
   height: 100px;
   width: 100%;
-  background: linear-gradient(125deg, #F6503B, #D22A10, #D22A10);
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.533);
+  background: linear-gradient(125deg, var(--mid-pink), var(--dark-pink), var(--dark-pink));
+  box-shadow: 0px 10px 5px var(--transparent-black);
   position: fixed;
   top: 0px; 
   left: 0px;
@@ -41,7 +51,7 @@ a {
 
 .nav-link {
   text-decoration: none;
-  color: #F1E9DB;
+  color: var(--white);
   font-size: 2rem;
   font-weight: bold;
   margin-top: 30px;
@@ -55,13 +65,13 @@ a {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background: #412722; 
+  background: var(--brown); 
 }
 
 #welcome-section h1 { 
   font-size: 4rem;
   padding-bottom: 0px;
-  text-shadow: 3px 3px #F6503B;
+  text-shadow: 3px 3px var(--mid-pink);
   text-align: center;
   padding-top: 35vh;
   color: #F1E9DB;
@@ -69,7 +79,7 @@ a {
 
 #welcome-section p {
   font-size: 2rem;
-  color: #F6503B;
+  color: var(--mid-pink);
   font-weight: bold;
   text-align: center;
   font-style: italic;
@@ -89,8 +99,8 @@ a {
 
 .contact-link {
   text-decoration: none;
-  color: #F1E9DB;
-  text-shadow: 1px 1px #F6503B;
+  color: var(--white);
+  text-shadow: 1px 1px var(--mid-pink);
 }
 
 /* About page */
@@ -101,12 +111,12 @@ a {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background: #F1E9DB;
+  background: var(--white);
 }
 
 #about h1 {
   font-size: 4rem;
-  text-shadow: 3px 3px #ff8575;
+  text-shadow: 3px 3px var(--pale-pink);
   text-align: center;
   padding-top: 110px;
   margin: 0px auto;
@@ -115,7 +125,7 @@ a {
 
 #about h2 {
   font-size: 3rem;
-  text-shadow: 2px 2px #ff8575;
+  text-shadow: 2px 2px var(--pale-pink);
 }
 
 #about ul {
@@ -150,13 +160,13 @@ a {
 #projects {
   height: auto;
   width: auto;
-  background-color: #5DA271;
+  background-color: var(--green);
   padding-bottom: 50px;
 }
 
 #projects h1 {
   font-size: 4rem;
-  text-shadow: 3px 3px #F6503B;
+  text-shadow: 3px 3px var(--mid-pink);
   text-align: center;
   padding-top: 110px;
   color: #F1E9DB;
@@ -183,7 +193,7 @@ a {
 #projects h2 {
   width: 80%;
   font-size: 2rem;
-  text-shadow: 2px 2px #F6503B;
+  text-shadow: 2px 2px var(--mid-pink);
   padding: 15px 5px;
   color: #F1E9DB;
   margin: 20px auto 0px auto;
@@ -191,7 +201,7 @@ a {
   border: solid 2px black;
   border-bottom: none;
   border-radius: 20px 20px 0px 0px;
-  background-color: rgba(0, 0, 0, 0.4)
+  background-color: var(--transparent-black); 
 }
 
 #projects a {
@@ -207,7 +217,7 @@ a {
   font-size: 1.7rem;
   border: solid 2px black;
   border-top: none;
-  background-color: rgba(0, 0, 0, 0.4)
+  background-color: var(--transparent-black);
 }
 
 @media screen and (min-width: 780px) {
