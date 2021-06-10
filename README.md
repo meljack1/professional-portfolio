@@ -4,7 +4,7 @@
 A mobile-responsive portfolio of my programming projects to date. 
 
 ## Live Link
-https://meljack1.github.io/personal-portfolio/
+https://meljack1.github.io/professional-portfolio/
 
 ## Screenshot
 
