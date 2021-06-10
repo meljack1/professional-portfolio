@@ -19,6 +19,8 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+
 #header {
   height: 100px;
   width: 100%;
@@ -39,10 +41,12 @@ a {
 .nav-link {
   text-decoration: none;
   color: #F1E9DB;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 30px;
 }
+
+/* Welcome page */
 
 #welcome-section {
   text-align: center;
@@ -88,6 +92,7 @@ a {
   text-shadow: 1px 1px #F6503B;
 }
 
+/* About page */
 
 #about {
   text-align: center;
@@ -139,6 +144,8 @@ a {
   padding-bottom: 50px;
 }
 
+/* Projects */
+
 #projects {
   height: auto;
   width: auto;
@@ -156,8 +163,9 @@ a {
 
 #projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #first-project {
@@ -173,7 +181,7 @@ a {
 
 #projects h2 {
   width: 80%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-shadow: 2px 2px #F6503B;
   padding: 15px 5px;
   color: #F1E9DB;
@@ -199,4 +207,68 @@ a {
   border: solid 2px black;
   border-top: none;
   background-color: rgba(0, 0, 0, 0.4)
+}
+
+@media screen and (min-width: 780px) {
+  html {
+    font-size: 14px;
+  }
+  #first-project {
+    width: 100%;
+  }
+  .project-card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  html {
+    font-size: 24px;
+  }
+
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 50px;
+  }
+
+  #welcome-section h1 {
+    padding-top: 45vh;
+  }
+
+  #contact li {
+    margin: 0px 50px;
+    display: inline;
+  }
+
+  #about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10vw;
+  }
+
+  #about h1 {
+    width: 99vw;
+  }
+
+  #about img {
+    width: 20vw;
+    padding: 50px 0 100px 0;
+  }
+  
+  #mel {
+    width: 40vw;
+  }
+
+  #about h2 {
+    padding-top: 100px;
+  }
+
+  #projects-container {
+    width: 50%;
+    margin: auto;
+  }
 }
