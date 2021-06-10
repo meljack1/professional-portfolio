@@ -280,6 +280,11 @@ a {
   
   #mel {
     width: 30vw;
+    text-align: left;
+  }
+
+  #about ul {
+    margin: 30px 60px;
   }
 
   #about h2 {
