@@ -237,6 +237,14 @@ a {
     width: 450px;
   }
 
+  #mel p {
+    text-align: left;
+  }
+
+  #about ul {
+    width: 35%;
+  }
+
 }
 
 @media screen and (min-width: 1300px) {
