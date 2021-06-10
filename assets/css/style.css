@@ -129,7 +129,7 @@ a {
 }
 
 #mel-photo {
-  width: 80%;
+  width: 60%;
   margin-top: 25px;
 }
 
@@ -214,17 +214,24 @@ a {
   html {
     font-size: 14px;
   }
-  #first-project {
-    width: 100%;
-  }
+
   .project-card {
     width: 45%;
   }
+
+  #first-project {
+    width: 100%;
+  }
+
+  #mel-photo {
+    width: 450px;
+  }
+
 }
 
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1300px) {
   html {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   #welcome-section {
@@ -247,29 +254,39 @@ a {
   #about {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    padding: 0 10vw;
+    padding: 0 15vw;
   }
 
   #about h1 {
     width: 99vw;
   }
 
-  #about img {
-    width: 20vw;
+  #mel-photo {
+    width: 450px;
     padding: 50px 0 100px 0;
   }
   
   #mel {
-    width: 40vw;
+    width: 30vw;
   }
 
   #about h2 {
-    padding-top: 100px;
+    padding-top: 20px;
+  }
+
+  #about p {
+    font-size: 1.7rem;
   }
 
   #projects-container {
-    width: 50%;
+    width: 65%;
     margin: auto;
   }
+
+  #first-image {
+    width: 100%;
+  }
+
 }
