@@ -7,9 +7,16 @@
 }
 
 html {
-  font-family: "Comfortaa", sans-serif;
   font-size: 10px;
+}
+
+body {
   box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 #header {
@@ -29,35 +36,29 @@ html {
   justify-content: space-evenly;
 }
 
-
 .nav-link {
   text-decoration: none;
   color: #F1E9DB;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
 }
 
 #welcome-section {
   text-align: center;
-  max-height: 100vh;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 0px;
   margin: 0px;
   background: #412722; 
-  display: block;
-  align-content: center;
-  justify-content: center;
 }
 
 #welcome-section h1 { 
   font-size: 4rem;
-  padding-top: 30vh;
   padding-bottom: 0px;
   text-shadow: 3px 3px #F6503B;
   text-align: center;
-  padding-top: 40vh;
+  padding-top: 35vh;
   color: #F1E9DB;
 }
 
@@ -67,6 +68,7 @@ html {
   font-weight: bold;
   text-align: center;
   font-style: italic;
+  width: 100%;
 }
 
 #contact {
@@ -76,8 +78,6 @@ html {
 #contact li {
   text-align: center;
   font-size: 2.5rem;
-  display: block;
-  font-size: 30px;
   line-height: 50px;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@ html {
 #about {
   text-align: center;
   height: auto;
-  width: auto;
+  width: 100%;
   padding: 0px;
   margin: 0px;
   background: #F1E9DB;
@@ -143,6 +143,7 @@ html {
   height: auto;
   width: auto;
   background-color: #5DA271;
+  padding-bottom: 50px;
 }
 
 #projects h1 {
@@ -151,4 +152,51 @@ html {
   text-align: center;
   padding-top: 110px;
   color: #F1E9DB;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#first-project {
+  margin-top: 25px;
+}
+
+#projects img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border: solid 2px black;
+}
+
+#projects h2 {
+  width: 80%;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #F6503B;
+  padding: 15px 5px;
+  color: #F1E9DB;
+  margin: 20px auto 0px auto;
+  text-align: center;
+  border: solid 2px black;
+  border-bottom: none;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+#projects a {
+  color: #F1E9DB;
+}
+
+#projects p {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.7rem;
+  border: solid 2px black;
+  border-top: none;
+  background-color: rgba(0, 0, 0, 0.4)
 }
