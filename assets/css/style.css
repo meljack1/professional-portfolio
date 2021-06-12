@@ -10,19 +10,12 @@
   --transparent-black: rgba(0, 0, 0, 0.4);
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: inherit;
-}
-
 html {
   font-size: 10px;
   scroll-behavior: smooth;
 }
 
 body {
-  box-sizing: border-box;
   font-family: "Comfortaa", sans-serif;
 }
 
@@ -38,19 +31,15 @@ a {
   background: linear-gradient(125deg, var(--mid-pink), var(--dark-pink), var(--dark-pink));
   box-shadow: 0px 10px 5px var(--transparent-black);
   position: fixed;
-  top: 0px; 
-  left: 0px;
   z-index: 999;
 }
 
 #navbar {
-  text-align: center;
   display: flex;
   justify-content: space-evenly;
 }
 
 .nav-link {
-  text-decoration: none;
   color: var(--white);
   font-size: 2rem;
   font-weight: bold;
@@ -63,16 +52,12 @@ a {
   text-align: center;
   height: 100vh;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
   background: var(--brown); 
 }
 
 #welcome-section h1 { 
   font-size: 4rem;
-  padding-bottom: 0px;
   text-shadow: 3px 3px var(--mid-pink);
-  text-align: center;
   padding-top: 35vh;
   color: #F1E9DB;
 }
@@ -81,7 +66,6 @@ a {
   font-size: 2rem;
   color: var(--mid-pink);
   font-weight: bold;
-  text-align: center;
   font-style: italic;
   width: 100%;
 }
@@ -91,14 +75,12 @@ a {
 }
 
 #contact li {
-  text-align: center;
   font-size: 2.5rem;
   line-height: 50px;
   font-weight: bold;
 }
 
 .contact-link {
-  text-decoration: none;
   color: var(--white);
   text-shadow: 1px 1px var(--mid-pink);
 }
@@ -107,17 +89,13 @@ a {
 
 #about {
   text-align: center;
-  height: auto;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
   background: var(--white);
 }
 
 #about h1 {
   font-size: 4rem;
   text-shadow: 3px 3px var(--pale-pink);
-  text-align: center;
   padding-top: 150px;
   margin: 0px auto;
   color: #412722;
@@ -158,8 +136,6 @@ a {
 /* Projects */
 
 #projects {
-  height: auto;
-  width: auto;
   background-color: var(--green);
   padding-bottom: 50px;
 }
@@ -195,7 +171,7 @@ a {
   font-size: 2rem;
   text-shadow: 2px 2px var(--mid-pink);
   padding: 15px 5px;
-  color: #F1E9DB;
+  color: var(--white);
   margin: 20px auto 0px auto;
   text-align: center;
   border: solid 2px black;
@@ -205,7 +181,7 @@ a {
 }
 
 #projects a {
-  color: #F1E9DB;
+  color: var(--white);
 }
 
 #projects p {
